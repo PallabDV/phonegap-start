@@ -6,14 +6,14 @@
         id        = "com.phonegap.hello-world"
         version   = "1.0.0">
 
-    <name>Git Repo-List</name>
+    <name>Git RepoList</name>
 
     <description>
         Application to list git repositories.
 		Taken from the phonegap hello-world app.
     </description>
 
-    <author email="pallab.b@fusioncharts.com">
+    <author href="http://google.com" email="pallab.b@fusioncharts.com">
         Pallab Banerjee
     </author>
 
