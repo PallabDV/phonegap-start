@@ -18,9 +18,11 @@
  */
 var app = {
     initialize: function() {
+		console.log("App initialized");
         this.bind();
     },
     bind: function() {
+		console.log("App binded");
         document.addEventListener('deviceready', this.deviceready, false);
     },
     deviceready: function() {
