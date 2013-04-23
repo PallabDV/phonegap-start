@@ -28,6 +28,7 @@ var app = {
     deviceready: function() {
 		console && console.log('device is ready');
         var xhr = new XMLHttpRequest();
+		xhr.responseType = "json";
 		 xhr.open('GET', 'https://api.github.com/legacy/repos/search/javascript', true);
 		  // Response handlers.
 		  xhr.onload = function () {
